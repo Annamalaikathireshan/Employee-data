@@ -9,6 +9,6 @@ import employeeData from '../assets/employeeData.json';
 
 export class AppComponent {
   title = 'employee-datax';
+  empData = employeeData.emp;
 }
-const empData = employeeData;
-console.log(empData);
+
